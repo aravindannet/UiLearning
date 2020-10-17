@@ -1,28 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400;1,700&display=swap');
-
-:root{
-    
+:root {
     --success-color: #bdeb90;
-    --error-color:#ff0000;
+    --error-color: #ff0000;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body
-{
+body {
     background-color: aliceblue;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     min-height: 100vh;
     margin: 0;
 }
 
-.container
-{
+.container {
     background-color: rgb(225, 233, 233);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 3);
@@ -30,73 +26,64 @@ body
     height: 500px;
 }
 
-.form
-{
+.form {
     padding: 10px 10px;
 }
 
-h2{
+h2 {
     text-align: center;
     margin: 10px;
 }
 
-.form-control
-{
+.form-control {
     margin-bottom: 10px;
     padding-bottom: 25px;
     position: relative;
 }
 
-.form-control label
-{
+.form-control label {
     color: #777;
     display: block;
     margin-bottom: 5px;
 }
 
-.form-control input
-{
+.form-control input {
     border: 2px solid ghostwhite;
     border-radius: 10px;
     display: block;
     width: 100%;
     padding: 10px;
-    font-size: 15pxpx;
+    font-size: 20px;
 }
 
-.form-control input:focus
-{
+.form-control input:focus {
     outline: 0;
     border-color: green;
 }
 
-.form-control.success input{
-    border-color : var(--success-color);
+.form-control.success input {
+    border-color: var(--success-color);
 }
 
-.form-control.error input{
-    border-color:var(--error-color);
+.form-control.error input {
+    border-color: var(--error-color);
 }
 
-.form-control small
-{
+.form-control small {
     color: var(--error-color);
     position: absolute;
     top: 70px;
     left: 0px;
     visibility: hidden;
-    
-       
 }
 
-
-.form-control.error small{
+.form-control.error small {
     visibility: visible;
 }
 
-.form button{
+.form button {
     cursor: pointer;
-    background-color:#3498db;
+    background-color: #3498db;
     color: #fff;
     border-radius: 6px;
     border: 2px solid;
