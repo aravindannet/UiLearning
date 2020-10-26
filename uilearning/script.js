@@ -46,7 +46,7 @@ function checkRequired(inputArr) {
 //check input length
 function checkLength(input, min, max) {
     if (input.value.length < min || input.value.length > max) {
-        showError(input, `${input.id.charAt(0).toUpperCase() + input.id.slice(1)} sholud be inbetween ${max} , ${min}`);
+        showError(input, `${input.id.charAt(0).toUpperCase() + input.id.slice(1)} sholud be in between ${max} , ${min}`);
     } else {
         showSuccess(input);
     }
