@@ -85,6 +85,9 @@ h1{
     padding: 8px;
 }
 
-
+.progress
+{
+    cursor: pointer;
+}
 
 
